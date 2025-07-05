@@ -55,6 +55,8 @@ A simple and efficient Expense Tracker built using Python and MySQL, designed to
 
 
 ## 📁 Project Files
-•	Expense Tracker project.ipynb – Jupyter Notebook with Python code to manage expenses.
+•	Expense Tracker project.ipynb – Jupyter Notebook with Python code to manage expenses.                                                                                                                               
+  (https://github.com/sonali2002-ui/python-sql-connectivity-ExpenseTrackerProject/blob/main/Expense%20Tracker%20project.ipynb)
 
-•	expense tracker project.txt – SQL queries for creating the database and tables.
+•	expense tracker project.txt – SQL queries for creating the database and tables.                                                                                                                                      
+  (https://github.com/sonali2002-ui/python-sql-connectivity-ExpenseTrackerProject/blob/main/expense%20tracker%20project.txt)
