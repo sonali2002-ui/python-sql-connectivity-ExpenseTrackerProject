@@ -27,32 +27,23 @@ A simple and efficient Expense Tracker built using Python and MySQL, designed to
 ## Database: expense_tracker
 
 ### •	Table: expense
-Field  	          Type	              Key
-
-id	              INT (PK, AI)	      ✅
-
-Date	            DATE	
-
-amount	          DECIMAL(10,2)	
-
-category	        VARCHAR(100)	
-
-description	      VARCHAR(255)	
-
+| Field       | Type          | Key         |
+|-------------|---------------|-------------|
+| id          | INT           | Primary Key, Auto Increment |
+| Date        | DATE          |             |
+| amount      | DECIMAL(10,2) |             |
+| category    | VARCHAR(100)  |             |
+| description | VARCHAR(255)  |             |
 
 ### •	Table: user
 
-Field	            Type	                    Key
-
-userid	          INT	                      FK → expense(id)
-
-Name            	VARCHAR(50)	
-
-Bank_acount_no	  VARCHAR(100)	            PK
-
-Bank_name        	VARCHAR(50)	
-
-email	            VARCHAR(100)	
+| Field           | Type           | Key                |
+|-----------------|----------------|--------------------|
+| userid          | INT            | Foreign Key → expense(id) |
+| Name            | VARCHAR(50)    |                    |
+| Bank_acount_no  | VARCHAR(100)   | Primary Key        |
+| Bank_name       | VARCHAR(50)    |                    |
+| email           | VARCHAR(100)   |                    |
 
 # 📦 How to Use
 •	Open the expense tracker project.txt file and run the SQL commands manually in MySQL Shell to set up the database and tables.
