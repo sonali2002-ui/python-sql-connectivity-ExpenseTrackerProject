@@ -26,7 +26,8 @@ A simple and efficient Expense Tracker built using Python and MySQL, designed to
 ## 🧱 Database Schema
 ### •	Database: expense_tracker
 
-#### •	Table: expense
+#### 1.	Table: expense
+
 | Field       | Type          | Key         |
 |-------------|---------------|-------------|
 | id          | INT           | Primary Key, Auto Increment |
@@ -35,7 +36,7 @@ A simple and efficient Expense Tracker built using Python and MySQL, designed to
 | category    | VARCHAR(100)  |             |
 | description | VARCHAR(255)  |             |
 
-#### •	Table: user
+#### 2.	Table: user
 
 | Field           | Type           | Key                |
 |-----------------|----------------|--------------------|
