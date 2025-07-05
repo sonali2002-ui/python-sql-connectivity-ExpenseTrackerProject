@@ -28,20 +28,30 @@ A simple and efficient Expense Tracker built using Python and MySQL, designed to
 
 ### •	Table: expense
 Field  	          Type	              Key
+
 id	              INT (PK, AI)	      ✅
+
 Date	            DATE	
+
 amount	          DECIMAL(10,2)	
+
 category	        VARCHAR(100)	
+
 description	      VARCHAR(255)	
 
 
 ### •	Table: user
 
 Field	            Type	                    Key
+
 userid	          INT	                      FK → expense(id)
+
 Name            	VARCHAR(50)	
+
 Bank_acount_no	  VARCHAR(100)	            PK
+
 Bank_name        	VARCHAR(50)	
+
 email	            VARCHAR(100)	
 
 # 📦 How to Use
